@@ -1,0 +1,6 @@
+@echo off
+echo Importing Wi-Fi Profile...
+netsh wlan add profile filename="WiFiProfile.xml"
+echo Connecting to Wi-Fi...
+netsh wlan connect name="YourNetworkSSID"
+echo Connected to Wi-Fi.
